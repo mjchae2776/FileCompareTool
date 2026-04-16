@@ -13,7 +13,7 @@ namespace File_Compare_Tool1
         {
             using (var dlg = new FolderBrowserDialog())
             {
-                dlg.Description = "폴더를 선택하세요.";
+                dlg.Description = "폴더를 선택하세요";
 
                 
                 if (!string.IsNullOrWhiteSpace(txtLeftDir.Text) && Directory.Exists(txtLeftDir.Text))
